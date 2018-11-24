@@ -1,0 +1,43 @@
+#include "heaptype.h"
+template<class ItemType>
+void Swap(ItemType& one,ItemType& two)
+{
+    ItemType temp;
+    temp =one ;
+    one=two;
+    two=temp;
+}
+
+ template<class ItemType>
+ void heaptype<ItemType>::ReheapDown(int root,int bottom){
+    int minChild;
+    int rightChild;
+    int leftChild;
+
+    leftChild =root*2+1;
+    rightChild=root*2+2;
+
+    if (leftChild <= bottom){
+        if (leftChild==bottom) minChild = rightChild;
+            else{
+                minChild = (elements[leftChild]<=elements[rightChild]) ? leftChild : rightChild;
+
+            if(elements[root] < elements[maxChild]){
+                Swap(elements[root],elements[maxChild]);
+                ReheapDown(maxChild,bottom);
+            }
+    }
+}
+
+template<class ItemType>
+void heaptype<ItemType>::ReheapUp(int root,int bottom){
+    int parent;
+    if(bottom>root){
+        parent=(bottom-1)/2;
+        if(elements[parent]>elements[bottom]){
+            Swap(elements[parent],elements[bottom]);
+            ReheapUp(root,parent);
+        }
+    }
+}
+

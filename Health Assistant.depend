@@ -1,0 +1,144 @@
+# depslib dependency file v1.0
+1525530543 source:/home/madcap/Desktop/CSE 225 project/Health Assistant/main.cpp
+	"manager.cpp"
+
+1525467285 /home/madcap/Desktop/CSE 225 project/Health Assistant/useritemtype.cpp
+	"useritemtype.h"
+
+1525453161 /home/madcap/Desktop/CSE 225 project/Health Assistant/useritemtype.h
+	"addresstype.cpp"
+	"datetype.cpp"
+	"nametype.cpp"
+
+1525456233 /home/madcap/Desktop/CSE 225 project/Health Assistant/addresstype.cpp
+	"addresstype.h"
+
+1525453105 /home/madcap/Desktop/CSE 225 project/Health Assistant/addresstype.h
+	<iostream>
+
+1525456402 /home/madcap/Desktop/CSE 225 project/Health Assistant/datetype.cpp
+	"datetype.h"
+	<string>
+
+1525456381 /home/madcap/Desktop/CSE 225 project/Health Assistant/datetype.h
+
+1525456203 /home/madcap/Desktop/CSE 225 project/Health Assistant/nametype.cpp
+	"nametype.h"
+
+1525453098 /home/madcap/Desktop/CSE 225 project/Health Assistant/nametype.h
+
+1525467716 /home/madcap/Desktop/CSE 225 project/Health Assistant/patientusertype.cpp
+	"patientusertype.h"
+
+1525453145 /home/madcap/Desktop/CSE 225 project/Health Assistant/patientusertype.h
+	"useritemtype.cpp"
+
+1525453457 /home/madcap/Desktop/CSE 225 project/Health Assistant/doctorusertype.cpp
+	"doctorusertype.h"
+
+1525453155 /home/madcap/Desktop/CSE 225 project/Health Assistant/doctorusertype.h
+	"useritemtype.cpp"
+
+1525553648 /home/madcap/Desktop/CSE 225 project/Health Assistant/doctor_type_account.cpp
+	"doctor_type_account.h"
+	<fstream>
+
+1525551646 /home/madcap/Desktop/CSE 225 project/Health Assistant/doctor_type_account.h
+	"account_type.cpp"
+	"doctorusertype.cpp"
+	"review_handler.cpp"
+	"patient_list_handler.cpp"
+
+1525526103 /home/madcap/Desktop/CSE 225 project/Health Assistant/account_type.cpp
+	"account_type.h"
+
+1525467221 /home/madcap/Desktop/CSE 225 project/Health Assistant/account_type.h
+	<iostream>
+	<string>
+
+1524073262 /home/madcap/Desktop/CSE 225 project/Health Assistant/review_handler.cpp
+	"review_handler.h"
+
+1524072879 /home/madcap/Desktop/CSE 225 project/Health Assistant/review_handler.h
+	"review_type.cpp"
+	"queuetype.cpp"
+
+1522508815 /home/madcap/Desktop/CSE 225 project/Health Assistant/review_type.cpp
+	"review_type.h"
+
+1522509767 /home/madcap/Desktop/CSE 225 project/Health Assistant/review_type.h
+	<string>
+	<iostream>
+
+1525525011 /home/madcap/Desktop/CSE 225 project/Health Assistant/queuetype.cpp
+	"queuetype.h"
+
+1522509164 /home/madcap/Desktop/CSE 225 project/Health Assistant/queuetype.h
+
+1522601076 source:/home/madcap/Desktop/CSE 225 project/Health Assistant/Unosorted_type_linkedlist.cpp
+	"Unosorted_type_linkedlist.h"
+
+1522600952 /home/madcap/Desktop/CSE 225 project/Health Assistant/Unosorted_type_linkedlist.h
+	<iostream>
+	<string>
+
+1525531577 /home/madcap/Desktop/CSE 225 project/Health Assistant/doctor_type_database.cpp
+	"doctor_type_database.h"
+	<fstream>
+	<sstream>
+
+1525516286 /home/madcap/Desktop/CSE 225 project/Health Assistant/doctor_type_database.h
+	"hashmap.cpp"
+	"multimap.cpp"
+	<string>
+	"doctor_type_account.cpp"
+
+1525444511 /home/madcap/Desktop/CSE 225 project/Health Assistant/hashmap.cpp
+	"hashmap.h"
+
+1525467237 /home/madcap/Desktop/CSE 225 project/Health Assistant/hashmap.h
+	<string>
+
+1525441371 /home/madcap/Desktop/CSE 225 project/Health Assistant/multimap.cpp
+	"multimap.h"
+	<iostream>
+
+1523986443 /home/madcap/Desktop/CSE 225 project/Health Assistant/multimap.h
+	<string>
+
+1525450539 source:/home/madcap/Desktop/CSE 225 project/Health Assistant/manager.cpp
+	"manager.h"
+	<unistd.h>
+	<iomanip>
+
+1525553501 /home/madcap/Desktop/CSE 225 project/Health Assistant/manager.h
+	<iostream>
+	"doctor_type_database.cpp"
+	"patient_type_database.cpp"
+
+1525553789 /home/madcap/Desktop/CSE 225 project/Health Assistant/manager.cpp
+	"manager.h"
+	<unistd.h>
+	<iomanip>
+
+1525527343 /home/madcap/Desktop/CSE 225 project/Health Assistant/patient_type_database.cpp
+	"patient_type_database.h"
+	<fstream>
+
+1525467270 /home/madcap/Desktop/CSE 225 project/Health Assistant/patient_type_database.h
+	"patient_type_account.cpp"
+	<string>
+
+1525467529 /home/madcap/Desktop/CSE 225 project/Health Assistant/patient_type_account.cpp
+	"patient_type_account.h"
+
+1525453139 /home/madcap/Desktop/CSE 225 project/Health Assistant/patient_type_account.h
+	"account_type.cpp"
+	"patientusertype.cpp"
+
+1525546949 /home/madcap/Desktop/CSE 225 project/Health Assistant/patient_list_handler.h
+	"queuetype.cpp"
+
+1525551371 /home/madcap/Desktop/CSE 225 project/Health Assistant/patient_list_handler.cpp
+	"patient_list_handler.h"
+
