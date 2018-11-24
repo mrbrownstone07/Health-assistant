@@ -4,9 +4,8 @@ cse data structure project
 Health Care Assistant
 
 
-# Brief Description:  So, we have developed a health care assistant as our project, which is basically a doctor’s          
-appointment booking system. There are two types of account, Patient type user account and Doctor type user account. 
-The patients will be able to search doctors who have account in the system, and will be able to book a appointment.
+# Brief Description:  
+So, we have developed a health care assistant as our project, which is basically a doctor’s appointment booking system. There are two types of account, Patient type user account and Doctor type user account. The patients will be able to search doctors who have account in the system, and will be able to book a appointment.
 
 
 
